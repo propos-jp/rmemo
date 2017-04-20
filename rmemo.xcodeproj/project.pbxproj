@@ -16,6 +16,7 @@
 		A70228731EA0A72D00CA86CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70228711EA0A72D00CA86CA /* LaunchScreen.storyboard */; };
 		A702287E1EA0A72D00CA86CA /* rmemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A702287D1EA0A72D00CA86CA /* rmemoTests.swift */; };
 		A70228891EA0A72D00CA86CA /* rmemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70228881EA0A72D00CA86CA /* rmemoUITests.swift */; };
+		A71B685C1EA8355B00259791 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71B685B1EA8355B00259791 /* MainViewController.swift */; };
 		F56C552BEB5D60A06E936417 /* Pods_rmemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B369E28F669E34F0A4A2F38 /* Pods_rmemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A70228841EA0A72D00CA86CA /* rmemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rmemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70228881EA0A72D00CA86CA /* rmemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmemoUITests.swift; sourceTree = "<group>"; };
 		A702288A1EA0A72D00CA86CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71B685B1EA8355B00259791 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C22C59D58FE31E84C19B06C6 /* Pods_rmemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rmemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59AAF60CFA8C954A8DC8F6C /* Pods-rmemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-rmemo/Pods-rmemo.release.xcconfig"; sourceTree = "<group>"; };
 		FB7281274DD5AA0497A6F465 /* Pods-rmemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rmemoUITests/Pods-rmemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				A70228681EA0A72D00CA86CA /* AppDelegate.swift */,
 				A702286A1EA0A72D00CA86CA /* ViewController.swift */,
 				A702286C1EA0A72D00CA86CA /* Main.storyboard */,
+				A71B685B1EA8355B00259791 /* MainViewController.swift */,
 				A702286F1EA0A72D00CA86CA /* Assets.xcassets */,
 				A70228711EA0A72D00CA86CA /* LaunchScreen.storyboard */,
 				A70228741EA0A72D00CA86CA /* Info.plist */,
@@ -449,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71B685C1EA8355B00259791 /* MainViewController.swift in Sources */,
 				A702286B1EA0A72D00CA86CA /* ViewController.swift in Sources */,
 				A70228691EA0A72D00CA86CA /* AppDelegate.swift in Sources */,
 			);
@@ -707,6 +711,7 @@
 				A702288F1EA0A72D00CA86CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A70228901EA0A72D00CA86CA /* Build configuration list for PBXNativeTarget "rmemoTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +720,7 @@
 				A70228921EA0A72D00CA86CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A70228931EA0A72D00CA86CA /* Build configuration list for PBXNativeTarget "rmemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +729,7 @@
 				A70228951EA0A72D00CA86CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
